@@ -54,6 +54,6 @@ I also add Augmentation to increase the number of dataset with:
 <p align="center"><img src="doc/model_lenet.png" width="200"></p>
 <p align="center"><i>Figure. Lenet 5 architecture </i></p>
 
-<p align="center"><img src="doc/accuracy_lenet.py" width="700"></p>
+<p align="center"><img src="doc/Accuracy Lenet.png" width="700"></p>
 <p align="center"><i>Figure. Lenet 5 accuracy </i></p>
 
