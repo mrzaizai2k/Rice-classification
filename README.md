@@ -7,5 +7,17 @@ Check out my 2 YOUTUBE channels for more:
 
 The stupid code for super newbie in this field. I feel stupid when writing this too :((
 
-<p align="center"><img src="data/100k2.jpg" width="200"></p>
-<p align="center"><i>Figure. Input image </i></p>
+The dataset has over 9000 images of 6 different rice seeds [BC-15, Thien_uu, Huongthon, Nep87, Q5, Xi23]
+
+I splited the dataset to train/valid/test as 70/20/10. The Images were in different sizes so I have to resizzed them into 1:2 ratio (100x200 pixels) and normalized them into (0-1) range
+
+<p align="center"><img src="doc/split.png" width="500"></p>
+<p align="center"><i>Figure. Dataset split and Image preprocessing </i></p>
+
+I also add Augmentation to increase the number of dataset with:
+* Flip 
+* Zoom in/out
+* Rotate
+
+<p align="center"><img src="doc/augment.png" width="500"></p>
+<p align="center"><i>Figure. Augmentation </i></p>
